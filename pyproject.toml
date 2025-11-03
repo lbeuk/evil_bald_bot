@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "metac-bot-template"
+name = "evil-bald-bot"
 version = "0.1.0"
 description = ""
 authors = ["Vasile Popescu <elisescu@elisescu.com>"]
@@ -15,10 +15,12 @@ numpy = "^2.3.0"
 openai = "^1.57.4"
 python-dotenv = "^1.0.1"
 forecasting-tools = "^0.2.54"
-
+notebook = "^7.4.7"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"
+notebook = "7.4.7"
+pandas = "2.3.3"
 
 [build-system]
 requires = ["poetry-core"]
